@@ -11,14 +11,14 @@ We will work on this problem and then classify the tweets as positive or negetiv
 The following steps are taken in the Exploratory Data Analysis:
 1. Checking the number of positive sentiments in the tweet data.
 2. Checking the number of negetive sentiments in the tweet data.
-3. Checking the distribution in the label count.
+3. Checking the distribution of the label count.
 4. Checking the distribution of the tweet in both the test and train data.
 
 
 ## Preprocessing the Data
 
 1. Count Vectorization of the tweet data.
-2. Checking the most frequently occuring 30 most occuring words in the tweet.
+2. Checking the 30 most frequently occuring most occuring words in the tweet.
 3. Checking the number of hashtags in the train data.
 4. Extracting the number of hashtags in the train data.
 5. Checking the most frequent occuring words in the data.
@@ -33,3 +33,5 @@ The following steps are taken in the Exploratory Data Analysis:
 2. SVM (Support Vector Machines) giving a F1 score of 70% on the test data.
 3. XG Boost Classification giving a F1 score of 72.2% on the test data.
 4. Logistic Regression giving a F1 score of 68.97% on the test data.
+
+We will select the Random Forest Model as it has the highest F1 score on unseen data
