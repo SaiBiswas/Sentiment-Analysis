@@ -18,14 +18,14 @@ The following steps are taken in the Exploratory Data Analysis:
 ## Preprocessing the Data
 
 1. Count Vectorization of the tweet data.
-2. Checking the 30 most frequently occuring most occuring words in the tweet.
-3. Checking the number of hashtags in the train data.
-4. Extracting the number of hashtags in the train data.
+2. Checking the 30 most frequently occuring words in the tweets.
+3. Checking the number of hashtags in the train data and test data.
+4. Extracting the number of hashtags in the train and test data.
 5. Checking the most frequent occuring words in the data.
-6. Tokenizing the words present in the train data.
-7. Using Gensim for checking the most similar occuring words in the data
-8. Creating a bag of words for the data.
-9. Standardizing the whole tweet data.
+6. Tokenizing the words present in the train and text data.
+7. Using Gensim for checking the most similar occuring words in the data.
+8. Creating a bag of words for the  whole tweets data.
+9. Standardizing the whole tweets data.
 
 ## Machine Learning Modelling
 
@@ -33,5 +33,6 @@ The following steps are taken in the Exploratory Data Analysis:
 2. SVM (Support Vector Machines) giving a F1 score of 70% on the test data.
 3. XG Boost Classification giving a F1 score of 72.2% on the test data.
 4. Logistic Regression giving a F1 score of 68.97% on the test data.
+5  Decision Tree algorithm giving an F1 score of 70.1 % on test data.
 
-We will select the Random Forest Model as it has the highest F1 score on unseen data
+So, amongst all the algos, We will select the Random Forest Model as it has the highest F1 score on unseen data.
